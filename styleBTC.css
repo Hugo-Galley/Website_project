@@ -1,0 +1,72 @@
+img
+{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px black inset;
+	box-shadow: 3px 3px 0px black;
+	
+}
+#flit
+{
+
+	float: right;
+	border: 3px black inset;
+	box-shadow: 3px 3px 0px black;
+	
+
+}
+body
+{
+	background-image: url(carbonne.webp);
+	background-position: center;
+	color: white;
+	font-size: 20px;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: auto;
+	font-family: Arial;
+}
+
+td
+{
+	border: 1px solid; black;
+
+}
+h1,p,h2,dl
+{
+	text-align: center;
+	font-family: police,Arial,sans-serif,serif;
+
+
+}
+h1,h2
+{
+font-family: policeHugo,Arial,serif;
+color:#86AFF0 ;
+}
+@font-face
+{
+	font-family: 'policeHugo';
+	src :url('AlexBrush-Regular.ttf')
+}
+@font-face
+{
+	font-family: 'police';
+	src :url('Tapestry-Regular.ttf')
+}
+a:visited {
+color:#ffffff;
+}
+
+a:hover {
+color:#607ac4;
+}
+
+a:active {
+color:#ffffff;
+}
